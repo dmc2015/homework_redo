@@ -1,7 +1,7 @@
 module UI_Management
 class Page_Break
 
-  def break
+  def line_break
 
     return "-------------------------------------------------"
   end
