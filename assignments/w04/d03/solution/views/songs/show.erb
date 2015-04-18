@@ -1,0 +1,8 @@
+<h2><%= @song.title %></h2>
+<h3>
+  By: <a href="/artists/<%= @song.artist.id %>"><%= @song.artist.name %></a>
+</h3>
+
+Album: <%= @song.album %></br>
+Preview_url: <%= @song.preview_url %></br>
+Price: <%= @song.price %></br>
