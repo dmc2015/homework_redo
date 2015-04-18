@@ -1,11 +1,11 @@
 
-require_relative '../model/break'
-require 'UI_Management'
+# require_relative '../model/break'
+require '../models/UI_Management'
 
 puts """
 
 Welcome to AMAco Train System
 
-#{Page_Break.break}
+#{UI_Management.line_break}
 
 """
